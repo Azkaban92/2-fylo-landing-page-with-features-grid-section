@@ -101,8 +101,7 @@ textarea {
 
 {
 
-  body {margin: 0px; padding: 0px;
-        color: #fcffff; }
+  body {margin: 0px; padding: 0px;}
 
   header {background-size: cover;
           background-image: linear-gradient(to bottom, #241d7d, #8c88d2);
@@ -117,7 +116,8 @@ textarea {
 
   .registration {float: right;
                  margin-bottom: 125px;
-                 margin-top: 27px;}
+                 margin-top: 27px;
+                 color: #fcffff;}
 
   .registration__in {display: inline;
                      font-size: 12px;}
@@ -135,19 +135,53 @@ textarea {
                 align-items: center;
                 width: 100%;}
 
-  .main-header__hero {width: 197px; height: 200px;}
+  .main-header__hero {width: 197px;
+                      height: 200px;
+                      margin-bottom: 38px;}
 
-  .main-header__text {margin: 0px 35px 37px 35px; text-align: center;}
+  .main-header__text {margin: 0px 35px 37px 35px;
+                      text-align: center;
+                      color: #fcffff;}
 
   .main-header__btn {background-color: #06d79d;
                      border: none;
                      padding: 17px 58px;
-                     color: white;}
+                     color: #fcffff;}
 
+ .features {height: 1780px;
+            color: black;
+            display: flex;
+            align-items: center;
+            flex-flow: column nowrap;
+            margin: 95px 36px 155px 27px;}
 
+ .features__phone {margin: 97px auto 49px auto;
+                   width: 224;
+                   height: 203px;}
 
+h3, h4 {color: #08053e;}
 
+h4 {margin-bottom: 34px;
+    margin-top: 49px;}
 
+h3 {font-size: 24px;}
+
+.features {transform: skewY(8.0833deg);}
+
+.features__par {color: #7f7f7f;}
+
+.features__email {width: 88%;
+                  height: 46px;
+                  padding-left: 28px;
+                  box-sizing: border-box;
+                  border: 3px solid #eeeef0;}
+
+.features__btn {width: 88%;
+                height: 46px;
+                background-color: #06d79d;
+                color: white;
+                margin-top: 16px;
+                border: none;}
 
 
 
