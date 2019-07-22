@@ -166,10 +166,11 @@ h4 {margin-bottom: 34px;
 
 h3 {font-size: 24px;}
 
-.main {position: relative;}
+.features {position: relative;}
 
 .features:before {transform: skewY(8deg);
                   content: "";
+                  position: absolute;
                   background-color: white;
                   width: 100%;
                   height: 106%;
