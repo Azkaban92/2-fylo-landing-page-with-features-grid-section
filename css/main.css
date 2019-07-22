@@ -222,7 +222,9 @@ footer        {background-color: #07043b;
                          width: 100%;
                          border: none;
                          border-radius: 5px;
-                         margin-bottom: 13px;}
+                         margin-bottom: 13px;
+                         padding-left: 28px;
+                         box-sizing: border-box;}
 
 .flex-container1__button {height: 43px;
                           width: 55%;
@@ -232,9 +234,11 @@ footer        {background-color: #07043b;
                           margin-bottom: 84px;
                           align-self: flex-end;}
 
+.heading-bottom {font-weight: 700;
+                 margin-top: 55px;
+                 color: #000039;}
 
-
-
+.heading-bottom__final {margin-bottom: 109px;}
 }
 /* ==========================================================================
    Helper classes
