@@ -107,14 +107,13 @@ textarea {
 
   p {font-family: "Open Sans";}
 
-@media screen and (max-width: 500px)
-
-{
-
-
   body {margin: 0px;
         padding: 0px;
         background-color: #8a86d2;}
+
+@media screen and (max-width: 500px)
+
+{
 
   header {background-size: cover;
           position: relative;
@@ -281,10 +280,6 @@ footer        {background-color: #07043b;
 @media screen and (min-width: 1440px)
 
 {
-
-    body {margin: 0px;
-          padding: 0px;
-          background-color: #8a86d2;}
 
     header {background-size: cover;
             position: relative;
