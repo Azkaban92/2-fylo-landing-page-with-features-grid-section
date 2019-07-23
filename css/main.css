@@ -99,9 +99,18 @@ textarea {
    ========================================================================== */
 /* Mobile */
 
-@media screen and (max-width: 768px)
+  h2, h3, h4, h5 {font-family: "Raleway";}
+
+  address {font-family: "Open Sans";}
+
+  button {font-family: "Raleway";}
+
+  p {font-family: "Open Sans";}
+
+@media screen and (max-width: 500px)
 
 {
+
 
   body {margin: 0px;
         padding: 0px;
@@ -141,6 +150,21 @@ textarea {
                 align-items: center;
                 width: 100%;}
 
+  .main-header__column2, .features__flex-container,
+  .features__flex-container_column2, .features__flex-container_column3 {display: flex;
+                                                                        flex-flow: column nowrap;
+                                                                        justify-content: center;
+                                                                        align-items: center;
+                                                                        width: 100%;}
+
+  .features__intro {text-align: center;}
+
+  .features__flex-container {display: flex;
+                            flex-flow: column nowrap;
+                            justify-content: center;
+                            align-items: center;
+                            width: 100%;}
+
   .main-header__hero {width: 197px;
                       height: 200px;
                       margin-bottom: 38px;}
@@ -172,7 +196,10 @@ h4 {margin-bottom: 34px;
     margin-top: 49px;}
 
 h3 {font-size: 24px;
-    margin-top: 155px;}
+    margin-top: 155px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;}
 
 .features {position: relative;}
 
@@ -195,7 +222,7 @@ h3 {font-size: 24px;
                   border: 3px solid #eeeef0;}
 
 .features__btn {width: 88%;
-                height: 2.5%;
+                height: 20%;
                 background-color: #06d79d;
                 color: white;
                 margin-top: 16px;
@@ -204,8 +231,7 @@ h3 {font-size: 24px;
 
 footer        {background-color: #07043b;
                color: white;
-               padding-top: 242px;
-               padding-bottom: 150px;
+               padding-top: 290px;
                margin-top: -35%;
                position: absolute;
                z-index: -3;}
@@ -213,6 +239,8 @@ footer        {background-color: #07043b;
 .flex-container {margin-left: 55px;}
 
 .flex-container__telephone {margin-top: 53px;}
+
+.flex-container__column2__receive {margin-right: 75px;}
 
 .flex-container__gmail {margin-top: 17px;
                         margin-bottom: 87px;}
@@ -239,9 +267,11 @@ footer        {background-color: #07043b;
 
 .heading-bottom {font-weight: 700;
                  margin-top: 55px;
-                 color: #000039;}
+                 color: #white;}
 
-.heading-bottom__final {margin-bottom: 109px;}
+.heading-bottom-initial {margin-top: 0px;}
+
+.heading-bottom__final {margin-bottom: 111px;}
 
 }
 
