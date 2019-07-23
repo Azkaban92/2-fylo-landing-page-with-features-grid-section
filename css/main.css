@@ -97,6 +97,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* Mobile */
+
 @media screen and (max-width: 768px)
 
 {
@@ -159,7 +161,7 @@ textarea {
             flex-flow: column nowrap;}
 
  .features__phone {margin: 97px auto 49px auto;
-                   width: 224;
+                   width: 224px;
                    height: 203px;}
 
  .features__par {width: 80%;}
@@ -240,6 +242,178 @@ footer        {background-color: #07043b;
                  color: #000039;}
 
 .heading-bottom__final {margin-bottom: 109px;}
+
+}
+
+/* Desktop */
+
+
+@media screen and (min-width: 1440px)
+
+{
+
+    body {margin: 0px;
+          padding: 0px;
+          background-color: #8a86d2;}
+
+    header {background-size: cover;
+            position: relative;
+            background-image: linear-gradient(to bottom, #241d7d, #8c88d2);
+            color: white;
+            height: 910px;
+           z-index:-2}
+
+  .logo__img {display: flex;
+              float: left;
+              width: 240px;
+              height: 70px;
+              margin: 53px 0px 189px 84px;}
+
+    .registration {float: right;
+                   margin-bottom: 125px;
+                   margin-top: 56px;
+                   color: #fcffff;
+                   }
+
+    .registration__in {display: inline;
+                       font-size: 32px;}
+
+    .registration__up {display: inline;
+                       margin-left: 33px;
+                       margin-right: 80px;
+                       padding: 5px 15px;
+                       background: #06d79d;
+                       font-size: 32px;}
+
+    .main-header {display: flex;
+                  flex-flow: row wrap;
+                  width: 100%;
+                  justify-content: space-around;
+                  }
+
+    .main-header__text {font-size: 34px;}
+
+    .main-header__hero {margin-top: -50px;}
+
+    .main-header__column1 {width: 34%;
+                           order: 2;}
+
+    .main-header__column2 {width: 35%;
+                           order: 1;
+                           margin-left: 7px;
+                           }
+
+    .main-header__btn {background-color: #06d79d;
+                       padding: 27px 95px 27px 95px;
+                       border: none;
+                       color: white;
+                       font-size: 24px;
+                       margin-bottom: 465px;
+                       }
+
+                       .features {height: 1980px;
+                                  color: black;
+                                  display: flex;
+                                  align-items: center;
+                                  flex-flow: column nowrap;}
+
+                      .features__flex-container {display: flex; flex-flow: row nowrap;}
+
+                      .features__flex-container_column1 {width: 50%;}
+
+                      .features__flex-container_column2 {width: 25%;}
+
+                      .features__flex-container_column3 {width: 25%;}
+
+
+
+
+
+                       .features__phone {margin: 97px auto 49px auto;}
+
+                       .features__par {width: 80%;}
+
+                       h3, h4 {color: #08053e;}
+
+                       h4 {margin-bottom: 34px;
+                          margin-top: 49px;}
+
+                       h3 {font-size: 47px;
+                          margin-top: 155px;}
+
+                       .features {position: relative;}
+
+                       .features:before {transform: skewY(8deg);
+                                        content: "";
+                                        position: absolute;
+                                        background-color: white;
+                                        width: 100%;
+                                        height: 100%;
+                                        left: 0;
+                                        top: 0%;
+                                        z-index: -1;}
+
+                       .features__par {color: #7f7f7f;}
+
+                       .features__email {width: 88%;
+                                        height: 46px;
+                                        padding-left: 28px;
+                                        box-sizing: border-box;
+                                        border: 3px solid #eeeef0;}
+
+                       .features__btn {width: 88%;
+                                      height: 2.5%;
+                                      background-color: #06d79d;
+                                      color: white;
+                                      margin-top: 16px;
+                                      border: none;
+                                      margin-bottom: 150px;}
+
+                       footer        {background-color: #07043b;
+                                     color: white;
+                                     width: 100%;
+                                     padding-top: 242px;
+                                     padding-bottom: 150px;
+                                     margin-top: -35%;
+                                     position: absolute;
+                                     z-index: -3;}
+
+                       .flex-container {margin-left: 55px;}
+
+                       .flex-container__telephone {margin-top: 53px;}
+
+                       .flex-container__gmail {margin-top: 17px;
+                                              margin-bottom: 87px;}
+
+                       .flex-container1 {display: flex;
+                                        flex-flow: column nowrap;
+                                        width: 78%;}
+
+                       .flex-container1__email {height: 43px;
+                                               width: 100%;
+                                               border: none;
+                                               border-radius: 5px;
+                                               margin-bottom: 13px;
+                                               padding-left: 28px;
+                                               box-sizing: border-box;}
+
+                       .flex-container1__button {height: 43px;
+                                                width: 55%;
+                                                background-color: #06d79d;
+                                                border: none;
+                                                color: white;
+                                                margin-bottom: 84px;
+                                                align-self: flex-end;}
+
+                       .heading-bottom {font-weight: 700;
+                                       margin-top: 55px;
+                                       color: #000039;}
+
+                       .heading-bottom__final {margin-bottom: 109px;}
+
+
+
+
 }
 /* ==========================================================================
    Helper classes
