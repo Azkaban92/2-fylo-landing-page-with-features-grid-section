@@ -203,7 +203,7 @@ h3 {font-size: 24px;
 footer        {background-color: #07043b;
                color: white;
                padding-top: 242px;
-               margin-top: -100px;
+               margin-top: -15%;
                position: absolute;
                z-index: -3;}
 
