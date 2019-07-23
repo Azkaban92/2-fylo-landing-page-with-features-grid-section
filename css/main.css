@@ -149,7 +149,7 @@ textarea {
 
   .main-header__btn {background-color: #06d79d;
                      border: none;
-                     padding: 17px 58px;
+                     padding: 5% 15%;
                      color: #fcffff;}
 
  .features {height: 1980px;
@@ -193,7 +193,7 @@ h3 {font-size: 24px;
                   border: 3px solid #eeeef0;}
 
 .features__btn {width: 88%;
-                height: 46px;
+                height: 2.5%;
                 background-color: #06d79d;
                 color: white;
                 margin-top: 16px;
@@ -213,7 +213,7 @@ footer        {background-color: #07043b;
 .flex-container__telephone {margin-top: 53px;}
 
 .flex-container__gmail {margin-top: 17px;
-                margin-bottom: 87px;}
+                        margin-bottom: 87px;}
 
 .flex-container1 {display: flex;
                   flex-flow: column nowrap;
