@@ -311,13 +311,13 @@ footer        {background-color: #07043b;
                        margin-bottom: 465px;
                        }
 
-                       .features {height: 1980px;
+                       .features {height: 1600px;
                                   color: black;
                                   display: flex;
                                   align-items: center;
                                   flex-flow: column nowrap;}
 
-                      .features__flex-container {display: flex; flex-flow: row nowrap;}
+                      .features__flex-container {display: flex; flex-flow: row nowrap; margin-top: 133px;}
 
                       .features__flex-container_column1 {width: 50%;}
 
@@ -325,18 +325,25 @@ footer        {background-color: #07043b;
 
                       .features__flex-container_column3 {width: 25%;}
 
+                       .features__phone {margin-left: 90px; margin-top: 23px; margin-bottom: 205px;}
 
+                       .features__par {width: 60%;}
 
+                       .features__h {width: 60%;}
 
+                        .features__h1 {margin-top: 0px ; margin-bottom: 26px;}
 
-                       .features__phone {margin: 97px auto 49px auto;}
+                          .features__h2 {margin-top: 0px ; margin-bottom: 26px;}
 
-                       .features__par {width: 80%;}
+                            .features__h3 {margin-top: 0px ; margin-bottom: 26px;}
+
+                              .features__h4 {margin-top: 0px ; margin-bottom: 26px;}
 
                        h3, h4 {color: #08053e;}
 
                        h4 {margin-bottom: 34px;
-                          margin-top: 49px;}
+                          margin-top: 49px;
+                          font-size: 24px;}
 
                        h3 {font-size: 47px;
                           margin-top: 155px;}
@@ -353,26 +360,37 @@ footer        {background-color: #07043b;
                                         top: 0%;
                                         z-index: -1;}
 
-                       .features__par {color: #7f7f7f;}
+                       .features__par {color: #7f7f7f; font-size: 20px; width: 85%;}
 
-                       .features__email {width: 88%;
+                       .features__par-final {width: 52%; text-align: center;}
+
+                       .access {display: flex;
+                                flex-flow: row nowrap;
+                                width: 100%;
+                                justify-content: center;}
+
+                       .features__email {width: 28%;
                                         height: 46px;
                                         padding-left: 28px;
                                         box-sizing: border-box;
                                         border: 3px solid #eeeef0;}
 
-                       .features__btn {width: 88%;
-                                      height: 2.5%;
+                       .features__btn {width: 14%;
+                                      height: 25%;
                                       background-color: #06d79d;
                                       color: white;
                                       margin-top: 16px;
                                       border: none;
-                                      margin-bottom: 150px;}
+                                      margin-bottom: 150px;
+                                      margin-top: 0px;
+                                      margin-left: 30px;}
+
+                      .get-ready {font-size: 47px;}
 
                        footer        {background-color: #07043b;
                                      color: white;
                                      width: 100%;
-                                     padding-top: 242px;
+                                     padding-top: 800px;
                                      padding-bottom: 150px;
                                      margin-top: -35%;
                                      position: absolute;
@@ -380,17 +398,41 @@ footer        {background-color: #07043b;
 
                        .flex-container {margin-left: 55px;}
 
+                       .flex-container__img {width: 240px; height: 70px;}
+
                        .flex-container__telephone {margin-top: 53px;}
 
                        .flex-container__gmail {margin-top: 17px;
                                               margin-bottom: 87px;}
 
-                       .flex-container1 {display: flex;
-                                        flex-flow: column nowrap;
-                                        width: 78%;}
+                       .flex-container {display: flex;
+                                        flex-flow: row nowrap;
+                                        box-sizing: border-box;}
+
+                        .flex-container__column1 {order: 1; width: 20%;}
+
+                        .flex-container__column2 {order: 5;
+                                                  width: 35%;
+                                                  margin-left: 150px;}
+
+                        .flex-container__column3 {order: 2;
+                                                  width: 15%;
+                                                  margin-left: 112px;}
+
+                        .flex-container__column4 {order: 3;
+                                                  width: 15%;
+                                                  margin-left: 80px;}
+
+                        .flex-container__column5 {order: 4;
+                                                  width: 15%;
+                                                  margin-left: 80px;}
+
+                        .flex-container1 {display: flex;
+                                         flex-flow: column nowrap;
+                                         justify-content: center;}
 
                        .flex-container1__email {height: 43px;
-                                               width: 100%;
+                                               width: 70%;
                                                border: none;
                                                border-radius: 5px;
                                                margin-bottom: 13px;
@@ -398,18 +440,21 @@ footer        {background-color: #07043b;
                                                box-sizing: border-box;}
 
                        .flex-container1__button {height: 43px;
-                                                width: 55%;
+                                                width: 45%;
                                                 background-color: #06d79d;
                                                 border: none;
                                                 color: white;
-                                                margin-bottom: 84px;
-                                                align-self: flex-end;}
+                                                margin-bottom: 84px;}
+
+                       .flex-container__column2__receive {width: 70%;
+                                                          font-size: 20px;
+                                                          margin-top: 0px;
+                                                          margin-right: 0px;}
 
                        .heading-bottom {font-weight: 700;
-                                       margin-top: 55px;
-                                       color: #000039;}
-
-                       .heading-bottom__final {margin-bottom: 109px;}
+                                       margin-top: 0px;
+                                       color: white;
+                                       font-size: 20px;}
 
 
 
