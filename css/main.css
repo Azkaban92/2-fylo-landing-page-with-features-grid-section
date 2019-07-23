@@ -413,7 +413,8 @@ footer        {background-color: #07043b;
 
                         .flex-container__column2 {order: 5;
                                                   width: 35%;
-                                                  margin-left: 150px;}
+                                                  margin-left: 150px;
+                                                  margin-right: 80px;}
 
                         .flex-container__column3 {order: 2;
                                                   width: 15%;
@@ -444,9 +445,12 @@ footer        {background-color: #07043b;
                                                 background-color: #06d79d;
                                                 border: none;
                                                 color: white;
-                                                margin-bottom: 84px;}
+                                                position: relative;
+                                                right: 12px;
+                                                margin-bottom: 84px;
+                                                align-self: center;}
 
-                       .flex-container__column2__receive {width: 70%;
+                       .flex-container__column2__receive {width: 100%;
                                                           font-size: 20px;
                                                           margin-top: 0px;
                                                           margin-right: 0px;}
