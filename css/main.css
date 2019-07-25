@@ -221,12 +221,12 @@ h3 {font-size: 24px;
                   border: 3px solid #eeeef0;}
 
 .features__btn {width: 88%;
-                height: 20%;
+                height: 50%;
                 background-color: #06d79d;
                 color: white;
                 margin-top: 16px;
                 border: none;
-                margin-bottom: 150px;}
+                margin-bottom: 0px;}
 
 footer        {background-color: #07043b;
                color: white;
