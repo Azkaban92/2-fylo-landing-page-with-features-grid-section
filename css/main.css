@@ -170,7 +170,8 @@ textarea {
 
   .main-header__text {margin: 0px 35px 37px 35px;
                       text-align: center;
-                      color: #fcffff;}
+                      color: #fcffff;
+                      box-sizing: border-box;}
 
   .main-header__btn {background-color: #06d79d;
                      border: none;
