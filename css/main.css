@@ -212,6 +212,8 @@ h3 {font-size: 24px;
                   top: 0%;
                   z-index: -1;}
 
+.access {height: 150px;}
+
 .features__par {color: #7f7f7f;}
 
 .features__email {width: 88%;
@@ -221,7 +223,7 @@ h3 {font-size: 24px;
                   border: 3px solid #eeeef0;}
 
 .features__btn {width: 88%;
-                height: 50%;
+                height: 30%;
                 background-color: #06d79d;
                 color: white;
                 margin-top: 16px;
