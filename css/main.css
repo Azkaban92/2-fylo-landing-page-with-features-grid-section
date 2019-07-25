@@ -212,17 +212,22 @@ h3 {font-size: 24px;
                   top: 0%;
                   z-index: -1;}
 
-.access {height: 150px; width: 80%;}
+.access {height: 150px;
+         width: 100%;
+         display: flex;
+         flex-flow: column nowrap;
+         justify-content: center;
+         align-items: center;}
 
 .features__par {color: #7f7f7f;}
 
-.features__email {width: 88%;
+.features__email {width: 80%;
                   height: 46px;
                   padding-left: 28px;
                   box-sizing: border-box;
                   border: 3px solid #eeeef0;}
 
-.features__btn {width: 88%;
+.features__btn {width: 80%;
                 height: 30%;
                 background-color: #06d79d;
                 color: white;
