@@ -99,6 +99,10 @@ textarea {
    ========================================================================== */
 /* Mobile */
 
+@media screen and (max-width: 767px)
+
+{
+
   h2, h3, h4, h5 {font-family: "Raleway";}
 
   address {font-family: "Open Sans";}
@@ -110,10 +114,6 @@ textarea {
   body {margin: 0px;
         padding: 0px;
         background-color: #8a86d2;}
-
-@media screen and (max-width: 500px)
-
-{
 
   header {background-size: cover;
           position: relative;
@@ -289,6 +289,17 @@ footer        {background-color: #07043b;
 @media screen and (min-width: 1440px)
 
 {
+  h2, h3, h4, h5 {font-family: "Raleway";}
+
+  address {font-family: "Open Sans";}
+
+  button {font-family: "Raleway";}
+
+  p {font-family: "Open Sans";}
+
+  body {margin: 0px;
+        padding: 0px;
+        background-color: #8a86d2;}
 
     header {background-size: cover;
             position: relative;
